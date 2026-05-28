@@ -2,22 +2,23 @@
 
 
 smart-placement-portal/
-├── backend/         ← Node.js + Express API
-│   ├── models/      ← Database schemas
-│   ├── routes/      ← API endpoints
-│   ├── middleware/  ← Auth middleware
+├── backend/                  ← Node.js + Express API
+│   ├── models/               ← Database schemas
+│   ├── routes/               ← API endpoints
+│   ├── middleware/           ← Auth middleware
 │   ├── server.js
-│   ├── .env         ← Your config (edit this!)
+│   ├── .env                  ← Your config (edit this!)
 │   └── package.json
-└── frontend/        ← React app
-    ├── src/
-    │   ├── pages/   ← Home, Jobs, Dashboard, Admin, Login, Register
-    │   ├── components/ ← Navbar, JobCard
-    │   ├── App.js
-    │   ├── App.css
-    │   ├── api.js
-    │   └── AuthContext.js
-    └── package.json
+│
+└── frontend/                 ← React app
+    └── src/
+        ├── pages/            ← Home, Jobs, Dashboard, Admin, Login, Register
+        ├── components/       ← Navbar, JobCard
+        ├── App.js
+        ├── App.css
+        ├── api.js
+        ├── AuthContext.js
+        └── package.json
 
 Tech Summary :
 
