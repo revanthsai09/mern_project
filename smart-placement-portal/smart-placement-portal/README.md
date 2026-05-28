@@ -1,6 +1,14 @@
-# SmartPlacement Portal — 
+# SmartPlacement Portal
 
+A full-stack job placement portal built with React, Node.js, and MongoDB.
 
+🔗 **Live Site:** [Click here]([https://revanthsai09.github.io/portfolio/])
+
+---
+
+## 📁 Project Structure
+
+```
 smart-placement-portal/
 ├── backend/                  ← Node.js + Express API
 │   ├── models/               ← Database schemas
@@ -19,11 +27,37 @@ smart-placement-portal/
         ├── api.js
         ├── AuthContext.js
         └── package.json
+```
 
-Tech Summary :
+---
 
-- **Frontend**: React.js, React Router, Axios, CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB + Mongoose
-- **Auth**: JWT (JSON Web Tokens) + bcrypt password hashing
-- **File uploads**: Multer
+## 🛠️ Tech Summary
+
+| Layer      | Technology                          |
+|------------|-------------------------------------|
+| Frontend   | React.js, React Router, Axios, CSS  |
+| Backend    | Node.js, Express.js                 |
+| Database   | MongoDB + Mongoose                  |
+| Auth       | JWT (JSON Web Tokens) + bcrypt      |
+| File Uploads | Multer                            |
+
+---
+
+
+
+
+---
+
+## ✨ Features
+
+- 🔐 User registration & login with JWT auth
+- 📋 Browse and apply for job listings
+- 🧑‍💼 Admin dashboard to manage jobs and applicants
+- 📁 Resume/file upload with Multer
+- 📱 Fully responsive design
+
+---
+
+## 📄 License
+
+MIT — free to use and modify.
